@@ -16,4 +16,4 @@ This week’s challenge is to build a timed coding quiz with multiple-choice que
 
 - The quiz should end when all questions are answered or the timer reaches 0.
 
-  - When the game ends, it should display their score and give the user the ability to save their initials and their score saving it on the High Score displaygit
+  - When the game ends, it should display their score and give the user the ability to save their initials and their score saving it on the High Score display
