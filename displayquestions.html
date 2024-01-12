@@ -3,16 +3,34 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Display Questions</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Quiz App Questions</title>
   </head>
   <body>
-    <div class="panel">
-      <h1>Quiz Application Using JavaScript</h1>
-      <div class="question" id="ques"></div>
-      <div class="options" id="opt"></div>
-      <button onclick="checkAns()" id="btn">SUBMIT</button>
-      <div id="score"></div>
-      <script src="script.js"></script>
+    <div class="quiz-container" id="quiz">
+      <div class="quiz-header">
+        <h2 id="question">Question text</h2>
+        <ul>
+          <li>
+            <input type="radio" name="answer" id="a" class="answer" />
+            <label for="a" id="a_text">Question</label>
+          </li>
+          <li>
+            <input type="radio" name="answer" id="b" class="answer" />
+            <label for="b" id="b_text">Question</label>
+          </li>
+          <li>
+            <input type="radio" name="answer" id="c" class="answer" />
+            <label for="c" id="c_text">Question</label>
+          </li>
+          <li>
+            <input type="radio" name="answer" id="d" class="answer" />
+            <label for="d" id="a_text">Question</label>
+          </li>
+        </ul>
+      </div>
+      <button id="submit">Submit</button>
     </div>
+    <script src="./js/script.js"></script>
   </body>
 </html>
